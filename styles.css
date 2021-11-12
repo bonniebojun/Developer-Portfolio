@@ -26,6 +26,7 @@ body {
     color: rgb(34,34,34);
     margin-top: 190px;
     margin-left: 190px;
+    padding: 0%;
 }
     
 #profilePic {
@@ -49,6 +50,7 @@ body {
     text-align:center;
     transition: all 0.15s;
     margin-left: 190px
+    
 }
 
 .hire {
