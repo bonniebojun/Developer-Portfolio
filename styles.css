@@ -17,14 +17,16 @@ body {
 .jobTitle {
     font-size: 22px;    
     color:  rgb(213,196,85);
-    
+    margin-top: 300px;
+    margin-left: 190px;    
 }
 
 
 .name {
     font-size: 130px;
+    height: 220px;
     color: rgb(34,34,34);
-    margin-top: 190px;
+    margin-top: 0px;
     margin-left: 190px;
     padding: 0%;
 }
