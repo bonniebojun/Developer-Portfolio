@@ -51,9 +51,10 @@ body {
     background-color: rgb(213,196,85);
     text-align:center;
     transition: all 0.15s;
-    margin-left: 190px
+    margin-left: 190px  
     
 }
+
 
 .hire {
     display: inline-block;
@@ -62,7 +63,9 @@ body {
     background-color: rgb(255,255,255);
     border-color: rgb(255,255,255);
     font-weight: bold;
+}
 
+@media screen and (max-width: 768px) {
 
 }
 
