@@ -3,16 +3,25 @@ body {
 }
 
 .Main-Container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+   display: flex;
    
 }
 
 .left-column {
-    grid-template-columns: 0;
+   width: 100%;
     
 }
 
+.right-column {
+    background-color: rgb(213,196,85); 
+    height: 1000px;
+    width: 100%;
+}
+
+#profileGuy {
+    height: 900px;
+    width: auto;
+}
 
 .jobTitle {
     font-size: 22px;    
@@ -38,7 +47,6 @@ body {
 }
 
 .moreAbout {
-    display:inline-block;
     padding:0.46em 1.6em;
     border: rgb(213,196,85);
     margin:0 0.2em 0.2em 0;
@@ -57,7 +65,7 @@ body {
 
 
 .hire {
-    display: inline-block;
+    display: flex;
     height: 50px;
     width: 100px;
     background-color: rgb(255,255,255);
@@ -65,7 +73,18 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
