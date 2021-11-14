@@ -4,12 +4,27 @@ body {
 
 .button {
     text-align: center;
+    margin-top: 240px;
+}
+
+.buttonHome {
+    background-color: rgb(248,248,248);
+    border-color: rgb(248,248,248);
+     
+}
+
+.buttonContact {
+    background-color: rgb(248,248,248);
+    border-color: rgb(248,248,248);
 }
 
 header {
     text-align: center;
-    font-size: 40px;
-    margin-top: 100px;
+    font-size: 45px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(34,34,34);
+   
 }
 
 
@@ -17,8 +32,9 @@ header {
     background-color: rgb(255,255,255);
     height: 700px;
     width: 600px;
-    margin-left: 200px;
+    margin-left: 340px;
     margin-top: 100px;
+    font-family: "Poppins", Arial, sans-serif;
 
 }
 
@@ -55,12 +71,79 @@ h1 {
     margin: 20px;
 }
 
-
-
+article {
+    color: rgb(153,153,179);
+}
 
 
 
 footer {
     text-align: center;
     margin-top: 150px;
+}
+
+#name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 515px;
+}
+
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 515px;
+}
+
+#subject {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 515px;
+}
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 515px; 
+    height: 100px;
+}
+
+#sendButton {
+    padding:0.46em 1.6em;
+    border: rgb(213,196,85);
+    width: 160px;
+    height: 50px;
+    margin-left: 20px;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213,196,85);
+    transition: all 0.15s;
+}
+
+.follow {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+#photoAustin {
+    height: 400px;
+    width: auto;
 }
