@@ -1,4 +1,95 @@
-.right-column {
-    
-    background-color:yellow;
+body {
+    background-color: rgb(248,248,248);
+    padding: 0%;
 }
+
+.middle-container {
+   display: flex;
+   padding: 0%;
+   
+}
+
+.left-column {
+   width: 100%;
+    
+}
+
+.right-column {
+    background-color: rgb(213,196,85); 
+    height: 1000px;
+    width: 100%;
+}
+
+#profileGuy {
+    padding-top: 12%;
+    padding-left: 10%;
+    height:900px;
+    width: auto;
+}
+
+.jobTitle {
+    font-size: 22px;    
+    color:  rgb(213,196,85);
+    margin-top: 300px;
+    margin-left: 190px;    
+}
+
+
+.name {
+    font-size: 130px;
+    height: 220px;
+    color: rgb(34,34,34);
+    margin-top: 30px;
+    margin-left: 190px;
+    padding: 0%;
+}
+    
+#profilePic {
+    width: auto;
+    height: 950px;  
+   
+}
+
+.moreAbout {
+    padding:0.46em 1.6em;
+    border: rgb(213,196,85);
+    margin:0 0.2em 0.2em 0;
+    width: 170px;
+    height: 50px;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213,196,85);
+    text-align:center;
+    transition: all 0.15s;
+    margin-left: 190px  
+    
+}
+
+
+.hire {
+    display: center;
+    height: 50px;
+    width: 100px;
+    position: 40%;
+    background-color: rgb(255,255,255);
+    border-color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+    .middle-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
