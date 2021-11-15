@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(248,248,248);
+}
+
+.button {
+    text-align: center;
+    margin-top: 240px;
+}
+
+.buttonHome {
+    background-color: rgb(248,248,248);
+    border-color: rgb(248,248,248);
+     
+}
+
+.buttonContact {
+    background-color: rgb(248,248,248);
+    border-color: rgb(248,248,248);
+}
+
+header {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(34,34,34);
+   
+}
+
+main {
+    display: flex;
+}
+
+
+.leftColumn {
+    background-color: rgb(255,255,255);
+    height: 700px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 100px;
+    margin-right: 10px;
+    font-family: "Poppins", Arial, sans-serif;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 30px;
+}
+
+.contactUs {
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.contactInfo {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.adress {
+    width: 150px;
+    margin-bottom: 50px;
+    
+}
+
+.email {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.phone {
+    width: 150px;
+    margin-left: 20px;
+}
+
+article {
+    color: rgb(153,153,179);
+}
+
+
+.inputData {
+    margin-left: 45px;
+  
+}
+
+#name {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-top: 20px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 4px;
+    width: 475px;
+}
+
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 4px;
+    width: 475px;
+}
+
+#subject {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 4px;
+    width: 475px;
+}
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 4px;
+    width: 500px; 
+    height: 100px;
+}
+
+#sendButton {
+    padding:0.46em 1.6em;
+    border: rgb(213,196,85);
+    width: 160px;
+    height: 50px;
+    margin-left: 45px;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213,196,85);
+    transition: all 0.15s;
+}
+
+.follow {
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.socialMedia {
+    margin-left: 45px;
+}
+
+.right-column {
+    margin-top: 100px;
+}
+
+#photoAustin {
+    height: 700px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+}
+
+@media screen (max-width:900px){
+    
+}
