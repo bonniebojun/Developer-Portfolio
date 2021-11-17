@@ -33,13 +33,13 @@ body {
    margin: 0%;
 
 }
-h1 {
+/* h1 {
   display: flex;
   position:absolute;
   margin-right: 20%;
-  font-size: 30px;
+  font-size: 30px; */
 
-}
+/* } */
 .hamburger {
   display: none;
 }
@@ -139,28 +139,27 @@ h1 {
     /* height: 1000px; */
     width: 100%;
     height: 900px;
-  
+
+   
 }
 
-#profileGuy {
-    display: flex;
-    display: center;
-    padding-top: 13%;
-    padding-right: 20%;
-    height: 600px;
-    width: auto;
+#profilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px; 
 }
-
+/* 
 .jobTitle {
     display: flex;
     position: absolute;
     font-size: 22px;    
     color:  rgb(213,196,85);
     margin-top: 170px;
-    margin-left: 190px;    
-}
+    margin-left: 190px;     */
 
 
+/* } */
 .name {
    
     font-size: 150px;
@@ -171,14 +170,13 @@ h1 {
     padding: 0%;
 }
     
-#profilePic {
-    display: flex;
-    display: center;
-    height: 750px;  
-    margin-top: -100px;
+
+
+    /* margin-top: -100px;
     margin-right: 100px;
+    margin-left: 100px; */
    
-}
+
 
 .moreAbout {
     padding:0.46em 1.6em;
@@ -212,11 +210,7 @@ h1 {
   height: 650px;
   font-size: large;
   color: rgb(2, 0, 0);
-}
-.about-container {
-  height: 650px;
-  font-size: large;
-  background-color:rgb(241, 237, 237)
+
 }
 .about-column {
   width: 50%;
@@ -227,7 +221,7 @@ h1 {
   color: rgb(2, 0, 0);
   width: 50%;
   padding-right: -100px;
-  border-radius: 20%;
+  border-top-right-radius: 30%;
   height: 900px;
 } 
 .text-container {
@@ -241,7 +235,7 @@ h1 {
 footer {
   background-color: rgb(0, 0, 0); 
   width: 100%;
-  height: 500px;
+  height: 350px;
   position: absolute;
 }
 footer div {
@@ -285,13 +279,13 @@ justify-content: center;
 
 
 .responsive {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 968px) {
   .nav-menu {
     
       display: 100%;
@@ -333,7 +327,7 @@ justify-content: center;
 }
 .middle-container {
    display: flex;
-   display:column;
+   flex-direction:column;
     width: 100%;
    height:auto;
    margin: auto;
@@ -341,6 +335,7 @@ justify-content: center;
   .left-column {
    width: 100%;
    background-color: rgb(255, 255, 255);
+   display: flex;
    
   }
     
