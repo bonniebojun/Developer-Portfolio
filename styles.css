@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 html {
   font-size: 62.5%;
@@ -21,18 +20,19 @@ a {
 .header{
   border-bottom: 1px solid #E2E8F0;
 }
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-}
+  padding: 1rem 1.5rem; */
 
+/* 
 body {
     background-color: rgb(248,248,248);
-   margin: 0%;
+   margin: 0%; */
 
-}
+
+/* } */
 /* h1 {
   display: flex;
   position:absolute;
@@ -56,19 +56,19 @@ body {
 
 
 
-.logo-container {
+/* .logo-container {
   font-size: 2.5rem;
   font-weight: 300;
   margin: 0;
   padding: 0;
-  text-align: left;
-  color: #333;
-}
+  text-align: 
+  color: #333; */
+/* } */
 
 
-.header{
-  border-bottom: 1px solid #E2E8F0;
-}
+/* .header{
+  border-bottom: 1px solid #E2E8F0; */
+/* } */
 
 .navbar {
   display: flex;
@@ -112,12 +112,15 @@ body {
 .nav-link:hover{
   color: #949699;
 }
-
+/* 
 .nav-logo {
+  display: flex;
+   justify-content: left;
   font-size: 2.1rem;
   font-weight: 500;
   color: #482ff7;
-}
+
+} */
 
 
 .middle-container {
@@ -143,45 +146,58 @@ body {
    
 }
 
-#profilePic {
+/* #profilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+ 
+
+
+img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 750px; 
+  width: 100%;
+  height: 50%;
 }
-/* 
-.jobTitle {
-    display: flex;
-    position: absolute;
-    font-size: 22px;    
-    color:  rgb(213,196,85);
-    margin-top: 170px;
-    margin-left: 190px;     */
-
-
-/* } */
 .name {
    
     font-size: 150px;
     height: 120px;
     color: rgb(34,34,34);
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 100px;
     padding: 0%;
 }
     
-
-
-    /* margin-top: -100px;
-    margin-right: 100px;
-    margin-left: 100px; */
    
-
+.button-1 {
+  display: flex;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 250px;
+  margin-left: 250px   
+    
+}
+.button-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+}
 
 .moreAbout {
     padding:0.46em 1.6em;
     border: rgb(213,196,85);
-    margin:0 0.2em 0.2em 0;
+    /* margin:0 0.2em 0.2em 0; */
     width: 170px;
     height: 50px;
     text-decoration:none;
@@ -191,17 +207,14 @@ body {
     background-color: rgb(213,196,85);
     text-align:center;
     transition: all 0.15s;
-    margin-top: 80%;
-    margin-left: 190px  
-    
+
 }
 
 
 .hire {
-    display: center;
     height: 50px;
     width: 100px;
-    position: 40%;
+    /* position: 10%; */
     background-color: rgb(255,255,255);
     border-color: rgb(255,255,255);
     font-weight: bold;
@@ -215,7 +228,7 @@ body {
 .about-column {
   width: 50%;
   padding: 2rem;
-  background-color:rgb(177, 206, 218);
+  background-color:rgb(144, 191, 211);
   height: 650px;
   font-size: large;
   color: rgb(2, 0, 0);
