@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(241, 237, 237);
 } 
 
 html {
@@ -18,7 +19,7 @@ a {
   text-decoration: none;
 }
 .header{
-  border-bottom: 1px solid #E2E8F0;
+  /* border-bottom: 1px solid #E2E8F0; */
 }
 /* .navbar {
   display: flex;
@@ -130,9 +131,11 @@ body {
 }
 
 .left-column {
-   width: 100%;
+   width: 50%;
    background-color: rgb(241, 237, 237);
-   
+   height:600px;
+   display: flex;
+   flex-direction: column;
 
     
 }
@@ -140,8 +143,8 @@ body {
 .right-column {
     background-color: rgb(213,196,85); 
     /* height: 1000px; */
-    width: 100%;
-    height: 900px;
+    width: 50%;
+    height: auto;
 
    
 }
@@ -162,8 +165,7 @@ img {
 }
 .name {
    
-    font-size: 150px;
-    height: 120px;
+    font-size: 100px;
     color: rgb(34,34,34);
     margin-top: 150px;
     margin-left: 100px;
@@ -172,18 +174,45 @@ img {
     
    
 .button-1 {
-  display: flex;
+  /* display: flex;
   height: 50px;
   color: white;
   font-size: 20px;
   font-weight: 500;
   border-radius: 5px;
   margin-top: 250px;
-  margin-left: 250px   
-    
+  margin-left: 250px    */
+  margin:auto;
+  display:flex;
+  
+}
+
+.moreAbout {
+  /* padding:0.46em 1.6em;
+  border: rgb(213,196,85);
+  /* margin:0 0.2em 0.2em 0; */
+  /* width: 170px;
+  height: 50px;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+  background-color: rgb(213,196,85);
+  text-align:center;
+  transition: all 0.15s; */
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(252, 252, 252);
+  background-color: rgb(213,196,85);
+  border: rgb(213,196,85);
+  /* text-decoration:none; */
+  font-family:'Roboto',sans-serif;
+  font-weight: bold;
+  padding:0.46em 1.6em;
+  cursor:pointer;
 }
 .button-2 {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -191,24 +220,12 @@ img {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 5px; */
+  margin:auto;
+  display:flex;
 }
 
-.moreAbout {
-    padding:0.46em 1.6em;
-    border: rgb(213,196,85);
-    /* margin:0 0.2em 0.2em 0; */
-    width: 170px;
-    height: 50px;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight: bold;
-    color: rgb(252, 252, 252);
-    background-color: rgb(213,196,85);
-    text-align:center;
-    transition: all 0.15s;
 
-}
 
 
 .hire {
@@ -223,6 +240,7 @@ img {
   height: 650px;
   font-size: large;
   color: rgb(2, 0, 0);
+  
 
 }
 .about-column {
