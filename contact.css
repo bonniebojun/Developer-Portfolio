@@ -1,5 +1,83 @@
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #030000;
+    font-size:large;
+    color: white;
+  }
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #e7e1e1;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .nav-link:hover{
+    color: #949699;
+  }
+
+
+
+
 body {
     background-color: rgb(248,248,248);
+    
 }
 
 .button {
@@ -29,16 +107,15 @@ header {
 
 main {
     display: flex;
+    
 }
 
 
 .leftColumn {
     background-color: rgb(255,255,255);
     height: 700px;
-    width: 600px;
-    margin-left: 360px;
-    margin-top: 100px;
-    margin-right: 10px;
+    width: 1200px;
+
     font-family: "Poppins", Arial, sans-serif;
 
 }
@@ -49,12 +126,13 @@ h1 {
 }
 
 .contact {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .contactUs {
     margin-left: 45px;
     margin-top: 40px;
+    font-size: 20px;
 }
 
 .contactInfo {
@@ -81,6 +159,7 @@ h1 {
 
 article {
     color: rgb(153,153,179);
+    font-size: 15px;
 }
 
 
@@ -148,30 +227,72 @@ article {
     transition: all 0.15s;
 }
 
-.follow {
-    margin-left: 45px;
-    margin-top: 40px;
-    font-size: 30px;
-}
 
-.socialMedia {
-    margin-left: 45px;
-}
+
 
 .right-column {
-    margin-top: 100px;
+    
 }
 
 #photoAustin {
-    height: 700px;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
-    text-align: center;
-    margin-top: 150px;
-}
+    background-color:black;
+     width: 100%;
+     height: 150px;
+     position: absolute;
+   }
+   footer div {
+   margin:0;
+    overflow: hidden; 
+    display: flex;
+    display: row;
+   justify-content: center;
+   }
+   
+   .social-media i{
+     background-color: black;
+    display: flex;
+    display: row;
+    width: auto;
+     padding-top: 5%;
+     padding-right: 2%;
+     color: rgb(241, 235, 235);
+   
+    
+   }
+   .fa {
+     color: rgb(213,196,85);
+   }
+   
+   .fa-facebook:active color {
+     color:darkblue;
+   }
+   .fa-facebook:hover {
+    color: rgb(213,196,85);
+   
+   }
+   .fa-twitter:hover {
+     color: rgb(213,196,85);
+   }
+   
+   .fa-youtube:hover {
+     color: rgb(213,196,85);
+     }
+   .fa-instagram:hover {
+      color:rgb(213,196,85);
+   }
+   
+   
+   .responsive {
+     width: 100%;
+     height: auto;
+   }
+   
 
-@media screen (max-width:900px){
-    df
-}
+/* @media screen (max-width:900px){
+
+} */
